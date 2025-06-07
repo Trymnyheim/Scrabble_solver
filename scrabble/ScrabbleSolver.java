@@ -17,7 +17,6 @@ public class ScrabbleSolver {
         wordValues = new HashMap<>();
         charValues = new HashMap<>();
         getCharValues(pointsfile);
-        System.out.println(list.search("alaktien"));
     }
 
     public void findWords(String letters) {
